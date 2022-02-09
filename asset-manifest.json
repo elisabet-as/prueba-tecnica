@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/prueba-tecnica/static/css/main.6817a88a.css",
-    "main.js": "/prueba-tecnica/static/js/main.5991d7e7.js",
+    "main.js": "/prueba-tecnica/static/js/main.b51239b3.js",
     "static/media/breaking_bad_logo.png": "/prueba-tecnica/static/media/breaking_bad_logo.d3a8f6bc3e0fc161dfb6.png",
     "index.html": "/prueba-tecnica/index.html",
     "main.6817a88a.css.map": "/prueba-tecnica/static/css/main.6817a88a.css.map",
-    "main.5991d7e7.js.map": "/prueba-tecnica/static/js/main.5991d7e7.js.map"
+    "main.b51239b3.js.map": "/prueba-tecnica/static/js/main.b51239b3.js.map"
   },
   "entrypoints": [
     "static/css/main.6817a88a.css",
-    "static/js/main.5991d7e7.js"
+    "static/js/main.b51239b3.js"
   ]
 }
