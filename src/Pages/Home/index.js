@@ -9,7 +9,7 @@ function Home() {
   const [characters, setCharacters] = useState()
   useEffect(() => {
     async function charactersData() {
-      let characters = await fetch('https://breakingbadapi.com/api/characters')
+      let characters = await fetch('https://breakingbadapi.com/api/characters/')
       characters = await characters.json()
       setCharacters(characters)
     }

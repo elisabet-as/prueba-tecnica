@@ -12,11 +12,11 @@ function Character() {
 
   useEffect(() => {
     async function getCharacterData() {
-      let characterData = await fetch(`https://breakingbadapi.com/api/characters/${characterId}`)
+      let characterData = await fetch(`https://breakingbadapi.com/api/characters/${characterId}/`)
       characterData = await characterData.json()
       setCharacter(characterData[0])
 
-      let quotesData = await fetch(`https://breakingbadapi.com/api/quote?author=${characterData[0].name}`)
+      let quotesData = await fetch(`https://breakingbadapi.com/api/quote?author=${characterData[0].name}/`)
       quotesData = await quotesData.json()
       setQuotes(quotesData)
 
